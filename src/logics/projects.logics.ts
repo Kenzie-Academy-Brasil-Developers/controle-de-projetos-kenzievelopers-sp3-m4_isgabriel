@@ -6,7 +6,6 @@ import {
     TProject,
     TProjectData,
     TProjectDataType,
-    TProjectReq,
     TProjectTechs,
     TProjectTechsReq,
     TTechnologies,
