@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS developer_infos(
 CREATE TABLE IF NOT EXISTS projects(
     "id" SERIAL PRIMARY KEY,
     "name" VARCHAR(50) NOT NULL,
-    "description" VARCHAR, 
+    "description" TEXT, 
     "estimatedTime" VARCHAR(20) NOT NULL,
     "repository" VARCHAR(120) NOT NULL,
     "startDate" DATE NOT NULL,
